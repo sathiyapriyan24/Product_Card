@@ -1,0 +1,60 @@
+body
+{
+    background:greenyellow;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.card
+{
+    width:400px;
+    background-color:gold;
+    text-align:center;
+    padding:20px;
+    box-shadow:0 5px 15px white(49, 12, 13);
+    transition:0.3s;
+}
+.product-img
+{
+    width: 300px;
+    height: 350x;
+    border-radius:10px;
+}
+.card h2
+{
+    color:violet(4, 4, 100);
+}
+.para
+{
+    color:orangered;
+}
+.price
+{
+    color:orchid;
+}
+.card:hover
+{
+    transform:scale(1.1);
+    box-shadow:0 15px 25px cornflowerblue;
+}
+
+.card:hover .product-img
+{
+    transform:scale(1.1);
+}
+
+.card:hover .submit
+{
+    background:chartreuse;
+}
+
+footer
+{
+    width:100%;
+    text-align:center;
+    background:coral;
+    color:lawngreen;
+    padding:10px;
+    margin-top:30px;
+}
